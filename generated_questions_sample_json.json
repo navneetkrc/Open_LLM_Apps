@@ -1,0 +1,688 @@
+{
+  "categories": {
+    "How-to": [
+      {
+        "Question": "How do I turn on my Galaxy phone?",
+        "Answer": "Press and hold the Side button for a few seconds.",
+        "Page": "10"
+      },
+      {
+        "Question": "How do I turn off my Galaxy phone?",
+        "Answer": "Press and hold the Side and Volume Down buttons simultaneously, then tap Power off.",
+        "Page": "19"
+      },
+      {
+        "Question": "How do I charge my Galaxy phone wirelessly?",
+        "Answer": "Place the back of your phone on a wireless charger (sold separately).",
+        "Page": "11"
+      },
+      {
+        "Question": "How do I share power wirelessly?",
+        "Answer": "Enable Wireless power sharing in Settings > Battery, then place another device on the back of your phone.",
+        "Page": "13"
+      },
+      {
+        "Question": "How do I insert a nano-SIM card?",
+        "Answer": "Use the ejection pin to remove the tray, place the SIM card gold contacts facing up, and reinsert the tray.",
+        "Page": "17"
+      },
+      {
+        "Question": "How do I add an eSIM?",
+        "Answer": "Go to Settings > Connections > SIM manager > Add eSIM and follow the on-screen instructions.",
+        "Page": "18"
+      },
+      {
+        "Question": "How do I take a screenshot?",
+        "Answer": "Press the Side and Volume Down buttons simultaneously, or swipe your hand across the screen (if enabled).",
+        "Page": "33"
+      },
+      {
+        "Question": "How do I record my screen?",
+        "Answer": "Open the quick settings panel, tap the Screen recorder icon, and then tap Start recording.",
+        "Page": "34"
+      },
+      {
+        "Question": "How do I change the keyboard language?",
+        "Answer": "Go to Settings > General management > Keyboard list and default, and select your preferred language.",
+        "Page": "35"
+      },
+      {
+        "Question": "How do I uninstall an app?",
+        "Answer": "Touch and hold the app icon, then select Uninstall.",
+        "Page": "38"
+      },
+      {
+        "Question": "How do I use the S Pen's Air command?",
+        "Answer": "Tap the Air command icon with the S Pen to access features like note-taking and translation.",
+        "Page": "48"
+      },
+      {
+        "Question": "How do I make a call?",
+        "Answer": "Open the Phone app, enter the number, and tap the call button.",
+        "Page": "56"
+      },
+      {
+        "Question": "How do I block a number?",
+        "Answer": "Go to Phone app > Settings > Block numbers and add the number to your block list.",
+        "Page": "57"
+      },
+      {
+        "Question": "How do I take a picture?",
+        "Answer": "Open the Camera app, point, and tap the shutter button.",
+        "Page": "63"
+      },
+      {
+        "Question": "How do I switch between front and rear cameras?",
+        "Answer": "Tap the camera switch icon or swipe up/down on the preview screen.",
+        "Page": "69"
+      }
+    ],
+    "Why": [
+      {
+        "Question": "Why is my phone battery draining so fast?",
+        "Answer": "Several factors can contribute to rapid battery drain, including using power-intensive apps (like games or video streaming), high screen brightness,  always-on display,  background app activity, and poor network signal strength.  Optimizing your device settings and closing unnecessary apps can help improve battery life.",
+        "Page": "14"
+      },
+      {
+        "Question": "Why isn't my phone connecting to Wi-Fi?",
+        "Answer": "Several reasons could cause this. First, make sure Wi-Fi is turned on in your phone's settings. Then, ensure your router is working correctly.  Check the password for your Wi-Fi network. If you still can't connect, try restarting both your phone and your router.",
+        "Page": "115"
+      }
+    ],
+    "What-if": [
+      {
+        "Question": "What if my phone overheats?",
+        "Answer": "Overheating can be caused by intensive app use, charging, or hot environments.  Close unnecessary apps, disconnect the charger, and move the phone to a cooler location. If the problem persists, contact Samsung support.",
+        "Page": "161-163"
+      },
+      {
+        "Question": "What if my phone screen is unresponsive?",
+        "Answer": "Try a forced restart: Press and hold the Side button and the Volume Down button simultaneously for more than 7 seconds. If the problem continues, contact Samsung support.",
+        "Page": "19, 180"
+      }
+    ],
+    "Setup": [
+      {
+        "Question": "How do I set up my Samsung account?",
+        "Answer": "Go to Settings > Sign in to your Galaxy.  You'll be prompted to sign in or create an account.  A Samsung account lets you access various Samsung services across your devices.",
+        "Page": "20"
+      },
+      {
+        "Question": "How to perform a basic setup of my Galaxy S25?",
+        "Answer": {
+          "UserType": "Basic",
+          "RequiredTools": [
+            "USB Type-C cable",
+            "USB power adapter"
+          ],
+          "SetupDuration": "15-20 mins",
+          "ConfigurationSteps": [
+            {
+              "Order": 1,
+              "Action": "Turn on the device",
+              "Parameters": {}
+            },
+            {
+              "Order": 2,
+              "Action": "Follow on-screen instructions for initial setup",
+              "Parameters": {}
+            },
+            {
+              "Order": 3,
+              "Action": "Connect to Wi-Fi (optional)",
+              "Parameters": {}
+            },
+            {
+              "Order": 4,
+              "Action": "Charge the battery",
+              "Parameters": {}
+            }
+          ],
+          "PostSetupVerification": [
+            "Check network connectivity",
+            "Verify battery charging"
+          ]
+        },
+        "Page": "19"
+      },
+      {
+        "Question": "How to configure my Galaxy S25 Ultra for dual SIM and eSIM usage?",
+        "Answer": {
+          "UserType": "Advanced",
+          "RequiredTools": [
+            "SIM ejection pin",
+            "Nano-SIM card",
+            "eSIM QR code (from carrier)"
+          ],
+          "SetupDuration": "25-35 mins",
+          "ConfigurationSteps": [
+            {
+              "Order": 1,
+              "Action": "Insert Nano-SIM card into tray",
+              "Parameters": {}
+            },
+            {
+              "Order": 2,
+              "Action": "Download eSIM using QR code",
+              "Parameters": {}
+            },
+            {
+              "Order": 3,
+              "Action": "Configure SIM manager (preferred SIM, data switching)",
+              "Parameters": {}
+            },
+            {
+              "Order": 4,
+              "Action": "Complete basic setup",
+              "Parameters": {}
+            }
+          ],
+          "PostSetupVerification": [
+            "Verify both SIM and eSIM connectivity",
+            "Test data switching",
+            "Check call functionality on both lines"
+          ]
+        },
+        "Page": "16-18"
+      },
+      {
+        "Question": "How to set up advanced features like Secure Folder and Samsung Pass on my Galaxy S25 Ultra?",
+        "Answer": {
+          "UserType": "Advanced",
+          "RequiredTools": [],
+          "SetupDuration": "30-45 mins",
+          "ConfigurationSteps": [
+            {
+              "Order": 1,
+              "Action": "Complete basic setup",
+              "Parameters": {}
+            },
+            {
+              "Order": 2,
+              "Action": "Set up Secure Folder (create PIN, add files/apps)",
+              "Parameters": {}
+            },
+            {
+              "Order": 3,
+              "Action": "Set up Samsung Pass (biometric registration)",
+              "Parameters": {}
+            },
+            {
+              "Order": 4,
+              "Action": "Configure other advanced features (optional)",
+              "Parameters": {}
+            }
+          ],
+          "PostSetupVerification": [
+            "Verify Secure Folder access and functionality",
+            "Test Samsung Pass authentication",
+            "Check functionality of other chosen advanced features"
+          ]
+        },
+        "Page": "140-143"
+      }
+    ],
+    "Technical Specification/Compatibility": [
+      {
+        "Question": "What are the technical specifications of the S Pen on the Galaxy S25 Ultra?",
+        "Answer": {
+          "CompatibilityMatrix": {
+            "DeviceModel": "SM-S938B",
+            "MinimumVersion": "5.2.0",
+            "Regions": {
+              "Global": [
+                "QC4.0",
+                "Wireless PowerShare"
+              ],
+              "CN": [
+                "QC4.0"
+              ]
+            }
+          },
+          "Notes": "Wireless PowerShare may be limited depending on the accessory used. QC4.0 support requires a compatible charger."
+        },
+        "Page": "47-55"
+      },
+      {
+        "Question": "Does my SM-S931B support 5G in the UK (GB)?",
+        "Answer": {
+          "CompatibilityMatrix": {
+            "DeviceModel": "SM-S931B",
+            "MinimumVersion": "4.1.1",
+            "Regions": {
+              "EU": [
+                "5G Sub6"
+              ],
+              "GB": [
+                "5G Sub6"
+              ]
+            }
+          },
+          "Notes": "5G mmWave is not supported in any region."
+        },
+        "Page": "113-114"
+      },
+      {
+        "Question": "My Galaxy S25+ (SM-S936B/DS) is running firmware 4.0.0.  Will it work with the new Samsung DeX 4K feature?",
+        "Answer": {
+          "CompatibilityMatrix": {
+            "DeviceModel": "SM-S936B",
+            "MinimumVersion": "5.0.0",
+            "Regions": {
+              "Global": [
+                "DeX 4K@60Hz via USB-C"
+              ],
+              "US": [
+                "DeX 4K@60Hz via HDMI"
+              ]
+            }
+          },
+          "Notes": "Requires compatible DeX cable and monitor.  HDMI support may vary by region and requires an additional HDMI adapter."
+        },
+        "Page": "110, 155"
+      },
+      {
+        "Question": "Can I use the new S Pen Air Command features on my SM-S901B?",
+        "Answer": {
+          "CompatibilityMatrix": {
+            "DeviceModel": "SM-S901B",
+            "MinimumVersion": "5.1.23",
+            "Regions": {
+              "Global": [
+                "Air Command (Limited)"
+              ]
+            }
+          },
+          "Notes": "Only basic Air Command features are supported on this model.  Advanced features like AI Select and Drawing Assist are not available."
+        },
+        "Page": "48-49"
+      },
+      {
+        "Question": "Will my Galaxy S25 (SM-S931B/DS) work with the new Wireless PowerShare feature?",
+        "Answer": {
+          "CompatibilityMatrix": {
+            "DeviceModel": "SM-S931B",
+            "MinimumVersion": "5.2.0",
+            "Regions": {
+              "Global": [
+                "Wireless PowerShare"
+              ],
+              "KR": [
+                "Wireless PowerShare",
+                "Fast Wireless PowerShare"
+              ]
+            }
+          },
+          "Notes": "Fast Wireless PowerShare only available in KR.  Requires sufficient battery level on the phone and compatible receiving device."
+        },
+        "Page": "13-14"
+      },
+      {
+        "Question": "What are the display specifications of the Galaxy S25 series?",
+        "Answer": {
+          "Overview": "The Galaxy S25 series boasts vibrant displays with high refresh rates for smooth visuals.  Specific parameters vary slightly between models.",
+          "TechnicalSpecs": {
+            "GalaxyS25Ultra": {
+              "Resolution": "3088 x 1440",
+              "RefreshRate": "120Hz",
+              "PeakBrightness": "2000 nits"
+            },
+            "GalaxyS25+": {
+              "Resolution": "2340 x 1080",
+              "RefreshRate": "120Hz",
+              "PeakBrightness": "1750 nits"
+            },
+            "GalaxyS25": {
+              "Resolution": "2340 x 1080",
+              "RefreshRate": "120Hz",
+              "PeakBrightness": "1500 nits"
+            }
+          },
+          "Compatibility": {
+            "GalaxyS25Ultra": "Full",
+            "GalaxyS25+": "Full",
+            "GalaxyS25": "Full"
+          },
+          "DiagramReference": "KB-GalaxyS25-Display-FIG3"
+        },
+        "Page": "127-129"
+      },
+      {
+        "Question": "Describe the 'Call Assist' feature and its supported languages.",
+        "Answer": {
+          "Overview": "Call Assist offers real-time translation during phone calls, facilitating communication across language barriers.  The availability of languages depends on the region and network.",
+          "TechnicalSpecs": {
+            "TranslationMethod": "AI-powered speech-to-text and text-to-speech",
+            "SupportedLanguages": "Refer to KB-CallAssist-Languages-Table1 for a complete list"
+          },
+          "Compatibility": {
+            "GalaxyS25Ultra": "Yes",
+            "GalaxyS25+": "Yes",
+            "GalaxyS25": "Yes",
+            "iPhone15": "No"
+          },
+          "DiagramReference": "KB-CallAssist-Workflow-FIG4"
+        },
+        "Page": "39, 59"
+      }
+    ],
+    "Troubleshooting": [
+      {
+        "Question": "Device overheats and shuts down unexpectedly during use.",
+        "Answer": {
+          "Symptoms": [
+            "Device overheating",
+            "Unexpected shutdowns",
+            "Performance throttling"
+          ],
+          "Diagnostics": [
+            "Check device temperature with thermal gun",
+            "Inspect for physical damage or obstructions near vents",
+            "Run battery health check"
+          ],
+          "RepairSteps": [
+            "1. Replace battery (if faulty)",
+            "2. Clean internal vents of dust and debris",
+            "3. Re-paste thermal compound on CPU/GPU (if necessary)"
+          ],
+          "Priority": "Critical",
+          "ErrorCode": "TROUB-0001",
+          "ToolsRequired": [
+            "GJ-TH92 thermal gun",
+            "Compressed air",
+            "Thermal paste"
+          ],
+          "AvgRepairTime": "60 mins"
+        },
+        "Page": "161-163"
+      },
+      {
+        "Question": "Touchscreen unresponsive or intermittently working.",
+        "Answer": {
+          "Symptoms": [
+            "Unresponsive touchscreen",
+            "Intermittent touch inputs",
+            "Ghost touches"
+          ],
+          "Diagnostics": [
+            "Check for screen cracks or damage",
+            "Test touchscreen sensitivity with various apps",
+            "Inspect digitizer for debris"
+          ],
+          "RepairSteps": [
+            "1. Replace digitizer",
+            "2. Clean the screen and digitizer connector"
+          ],
+          "Priority": "Critical",
+          "ErrorCode": "TROUB-0002",
+          "ToolsRequired": [
+            "GJ-FT55",
+            "Screen cleaning solution",
+            "Isopropyl alcohol"
+          ],
+          "AvgRepairTime": "45 mins"
+        },
+        "Page": "22"
+      },
+      {
+        "Question": "Phone restarts randomly during calls.",
+        "Answer": {
+          "Symptoms": [
+            "Random restarts",
+            "Restarts during calls",
+            "App crashes"
+          ],
+          "Diagnostics": [
+            "Check battery swelling",
+            "Run memory test",
+            "Inspect motherboard for damage"
+          ],
+          "RepairSteps": [
+            "1. Replace battery",
+            "2. Re-flash firmware",
+            "3. Replace motherboard (if necessary)"
+          ],
+          "Priority": "Critical",
+          "ErrorCode": "TROUB-1151",
+          "ToolsRequired": [
+            "GJ-TH92 thermal gun",
+            "Multimeter"
+          ],
+          "AvgRepairTime": "75 mins"
+        },
+        "Page": "179-180"
+      },
+      {
+        "Question": "Device won't power on after OS update.",
+        "Answer": {
+          "Symptoms": [
+            "No power",
+            "Black screen after update",
+            "Boot loop"
+          ],
+          "Diagnostics": [
+            "Check battery level",
+            "Attempt recovery mode",
+            "Inspect for physical damage"
+          ],
+          "RepairSteps": [
+            "1. Re-flash firmware via Odin",
+            "2. Replace battery (if faulty)"
+          ],
+          "Priority": "High",
+          "ErrorCode": "TROUB-0238",
+          "ToolsRequired": [
+            "Odin software",
+            "USB cable"
+          ],
+          "AvgRepairTime": "30 mins"
+        },
+        "Page": "180"
+      },
+      {
+        "Question": "Camera malfunctioning - blurry images, app crashes.",
+        "Answer": {
+          "Symptoms": [
+            "Blurry images",
+            "Camera app crashes",
+            "Focus issues"
+          ],
+          "Diagnostics": [
+            "Clean camera lens",
+            "Test camera functionality with different apps",
+            "Check camera hardware connection"
+          ],
+          "RepairSteps": [
+            "1. Clean or replace camera lens",
+            "2. Re-flash firmware",
+            "3. Replace camera module (if necessary)"
+          ],
+          "Priority": "High",
+          "ErrorCode": "TROUB-0003",
+          "ToolsRequired": [
+            "Compressed air",
+            "Lens cleaning kit"
+          ],
+          "AvgRepairTime": "60 mins"
+        },
+        "Page": "63-70, 182"
+      },
+      {
+        "Question": "Poor audio quality during calls - crackling, static, low volume.",
+        "Answer": {
+          "Symptoms": [
+            "Crackling audio",
+            "Static noise",
+            "Low call volume"
+          ],
+          "Diagnostics": [
+            "Check for obstructions in speaker or microphone",
+            "Test audio with headphones",
+            "Inspect earpiece/speaker for damage"
+          ],
+          "RepairSteps": [
+            "1. Clean speaker/microphone",
+            "2. Replace earpiece/speaker (if necessary)"
+          ],
+          "Priority": "Medium",
+          "ErrorCode": "TROUB-0004",
+          "ToolsRequired": [
+            "Compressed air",
+            "Isopropyl alcohol",
+            "Small brush"
+          ],
+          "AvgRepairTime": "30 mins"
+        },
+        "Page": "58"
+      },
+      {
+        "Question": "Wi-Fi connectivity issues - slow speeds, intermittent connection.",
+        "Answer": {
+          "Symptoms": [
+            "Slow Wi-Fi speeds",
+            "Intermittent connection drops",
+            "Unable to connect"
+          ],
+          "Diagnostics": [
+            "Check router settings",
+            "Test Wi-Fi with other devices",
+            "Check device's Wi-Fi settings"
+          ],
+          "RepairSteps": [
+            "1. Restart device and router",
+            "2. Check for Wi-Fi interference",
+            "3. Update device software"
+          ],
+          "Priority": "Medium",
+          "ErrorCode": "TROUB-0005",
+          "ToolsRequired": [
+            "None"
+          ],
+          "AvgRepairTime": "15 mins"
+        },
+        "Page": "115"
+      },
+      {
+        "Question": "My phone overheats while fast charging, and a warning message appears.",
+        "Answer": {
+          "Description": "The device is overheating due to high power consumption during fast charging. This is a safety precaution to prevent damage to the battery and potential fire hazards.",
+          "ComplianceStandards": [
+            "IEC 62368-1",
+            "UL 62368-1"
+          ],
+          "SeverityLevel": "Critical",
+          "RecallInfo": {
+            "AffectedBatches": [],
+            "DateRange": ""
+          },
+          "HazardType": "Electrical",
+          "EmergencyProtocol": [
+            "Disconnect the charger immediately",
+            "Allow the device to cool down before resuming charging"
+          ]
+        },
+        "Page": "161-163"
+      },
+      {
+        "Question": "The screen is unresponsive and the device is frozen.",
+        "Answer": {
+          "Description": "The device has experienced a software crash or freeze, potentially caused by a software bug or overloaded memory.  This could lead to data loss if not addressed.",
+          "ComplianceStandards": [
+            "IEC 62368-1"
+          ],
+          "SeverityLevel": "High",
+          "RecallInfo": {
+            "AffectedBatches": [],
+            "DateRange": ""
+          },
+          "HazardType": "Electrical",
+          "EmergencyProtocol": [
+            "Press and hold the Side button and the Volume Down button simultaneously for more than 7 seconds to force a restart."
+          ]
+        },
+        "Page": "19, 180"
+      },
+      {
+        "Question": "My phone emits a burning smell while charging.",
+        "Answer": {
+          "Description": "This indicates a potential short circuit or component failure within the charging circuitry, posing a fire risk.",
+          "ComplianceStandards": [
+            "IEC 62368-1",
+            "UL 62368-1"
+          ],
+          "SeverityLevel": "Critical",
+          "RecallInfo": {
+            "AffectedBatches": [
+              "BT2024Q1-45"
+            ],
+            "DateRange": "2024-03/2024-05"
+          },
+          "HazardType": "Electrical",
+          "EmergencyProtocol": [
+            "Immediately unplug the charger",
+            "Evacuate the area",
+            "Do not attempt to use the device until inspected by a qualified technician"
+          ]
+        },
+        "Page": "161-163"
+      },
+      {
+        "Question": "The battery swells or bulges.",
+        "Answer": {
+          "Description": "A swollen battery indicates internal damage and a potential fire or explosion hazard.  This is a serious safety concern.",
+          "ComplianceStandards": [
+            "UN 38.3",
+            "IEC 62133"
+          ],
+          "SeverityLevel": "Critical",
+          "RecallInfo": {
+            "AffectedBatches": [],
+            "DateRange": ""
+          },
+          "HazardType": "Chemical",
+          "EmergencyProtocol": [
+            "Do not attempt to use or charge the device.",
+            "Contact Samsung support immediately for replacement."
+          ]
+        },
+        "Page": "161-163, 181"
+      },
+      {
+        "Question": "The device's glass or acrylic body is broken.",
+        "Answer": {
+          "Description": "Broken glass or acrylic presents a risk of cuts and injuries.",
+          "ComplianceStandards": [],
+          "SeverityLevel": "High",
+          "RecallInfo": {
+            "AffectedBatches": [],
+            "DateRange": ""
+          },
+          "HazardType": "Mechanical",
+          "EmergencyProtocol": [
+            "Do not use the device.",
+            "Have the device repaired at a Samsung Service Centre or an authorised service centre."
+          ]
+        },
+        "Page": "9"
+      },
+      {
+        "Question": "Dust or foreign materials have entered the microphone, speaker, or receiver.",
+        "Answer": {
+          "Description": "This can reduce sound quality or cause malfunctions.  Attempting to remove the debris with a sharp object may cause further damage.",
+          "ComplianceStandards": [],
+          "SeverityLevel": "Medium",
+          "RecallInfo": {
+            "AffectedBatches": [],
+            "DateRange": ""
+          },
+          "HazardType": "Mechanical",
+          "EmergencyProtocol": [
+            "Do not attempt to remove debris with sharp objects.",
+            "Contact Samsung support for assistance."
+          ]
+        },
+        "Page": "9"
+      }
+    ]
+  }
+}
